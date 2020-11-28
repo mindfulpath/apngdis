@@ -40,7 +40,7 @@ public final class ApngDis {
         }
     };
 
-	public static void process(PngReaderApng pngr, File parent, String prefix) throws Exception {
+    public static void process(PngReaderApng pngr, File parent, String prefix) throws Exception {
         int numFrames = pngr.getApngNumFrames();
         int digits = (int) Math.log10(numFrames) + 1;
         String formatString = "%0" + digits + "d";
