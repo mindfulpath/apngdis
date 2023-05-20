@@ -7,7 +7,6 @@ import ar.com.hjg.pngj.pixels.CompressorStreamParallelDeflater;
 import java.io.File;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.OutputStream;
 
 /**
  * APNG Disassembler
